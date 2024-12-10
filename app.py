@@ -18,7 +18,7 @@ def index():
 def predict():
     try:
         cgpa = float(request.form['cgpa'])
-        prediction = predict_package([[cgpa])
+        prediction = predict_package(cgpa)
         return render_template('index.html', prediction=f"{prediction[0]:.2f}")
     except ValueError:
         return render_template('index.html', prediction="Invalid Input")
