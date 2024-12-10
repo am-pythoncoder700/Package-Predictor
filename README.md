@@ -4,8 +4,7 @@ Package Predictor is a simple web-based application that predicts the salary pac
 ## Features
 Input a CGPA value.
 Predict the salary package based on the input CGPA.
-Display the predicted salary package on the website.
-User-friendly and attractive design with a background image.<br>
+Display the predicted salary package on the website.<br>
 Technologies Used
 Python: Backend programming language.
 <br>
