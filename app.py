@@ -8,7 +8,7 @@ app = Flask(__name__)
 def predict_package(cgpa):
     with open('model.pkl', 'rb') as file:
         model = pickle.load(file)
-    return model.predict(cgpa)
+    return model.predict([[cgpa]])
 
 @app.route('/')
 def index():
