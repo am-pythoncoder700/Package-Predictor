@@ -8,7 +8,8 @@ Display the predicted salary package on the website.
 User-friendly and attractive design with a background image.
 Technologies Used
 Python: Backend programming language.
-Flask: Web framework for building the application.
-HTML: Markup language for structuring the web pages.
-CSS: Styling the web pages for an attractive UI.
+<br>
+Flask: Web framework for building the application.<br>
+HTML: Markup language for structuring the web pages.<br>
+CSS: Styling the web pages for an attractive UI.<br>
 Machine Learning: A predictive model built to estimate the salary package based on CGPA.
